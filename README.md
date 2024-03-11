@@ -17,13 +17,13 @@ A virtual environment (venv/virtualenv) allows you to manage package installatio
 
 Make sure you have the latest version of pip by running:
 
-# Unix/macOS:
+### Unix/macOS:
 ```
 python3 -m pip install --user --upgrade pip
 python3 -m pip install --user --upgrade pip
 ```
 
-# Windows:
+### Windows:
 ```
 py -m pip install --upgrade pip
 py -m pip --version
@@ -31,24 +31,24 @@ py -m pip --version
 
 You can then run the following command to create the venv:
 
-# Unix/macOS:
+### Unix/macOS:
 ```
 python3 -m venv .venv
 ```
 
-# Windows:
+### Windows:
 ```
 py -m venv .venv
 ```
 
 Activate the virtual environment with the following:
 
-# Unix/macOS
+### Unix/macOS
 ```
 source /.venv/bin/activate
 ```
 
-# Windows
+### Windows
 ```
 .\.venv\Scripts\activate
 ```
@@ -66,11 +66,11 @@ If that is the case, the program can be run accordingly
 py ./src/source.py
 ```
 
-# Train the model
+### Train the model
 To train a new model, uncomment `lines 11 to 94`. By default it uses a pretrained model to make predictions. 
 If you would like to save your trained model you can uncomment `line 89`
 
-# Making predictions
+### Making predictions
 By default, predictions are made based on the content of the prediction directory
 ```
 ./assets/prediction
