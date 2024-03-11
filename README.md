@@ -5,13 +5,6 @@ This is an image classifier made using [tensorflow](https://www.tensorflow.org/)
 You need to have python installed and any IDE of your choice. I recommend Visual Studio or Visual Studio Code.
 If you do not have [python](https://www.python.org/), you can install it here.
 
-## Installing Packages
-The `requirements.txt` file contains all the packages needed for the project. Run the commands on the terminal to proceed
-```
-pip install -r requirements.txt # Each time there is a new package
-pip install <package> # Each time you want to install a package
-```
-
 ## Creating a Virtual Environment
 A virtual environment (venv/virtualenv) allows you to manage package installations for different projects.
 
@@ -57,6 +50,13 @@ Finally you can deactivate the virtual environment after you are done
 ```
 deactivate
 ```
+## Installing Packages
+The `requirements.txt` file contains all the packages needed for the project. Run the commands on the terminal to proceed
+```
+pip install -r requirements.txt # Each time there is a new package
+pip install <package> # Each time you want to install a package
+```
+
 
 ## How to Use
 
