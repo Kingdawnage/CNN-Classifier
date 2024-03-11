@@ -1,4 +1,3 @@
-from tabnanny import verbose
 import tensorflow as tf
 import numpy as np
 from matplotlib import pyplot as plt
@@ -110,7 +109,7 @@ for image_path in predict_img:
     x = np.expand_dims(x, axis=0)
 
     # Predict class probabilities
-    ## This code uses the presave model to make predictions. Comment it out and use the line below to use the model you trained
+    ## This code uses the presaved model to make predictions. Comment it out and use the line below to use the model you trained
     ## You can use model you saved and trained as well
     classes = loaded_model.predict(x)
     ## Uncomment this code to train the model you have trained
